@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/intentions",
+      "handler": "intentions.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/intentions",
+      "handler": "intentions.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/intentions",
+      "handler": "intentions.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

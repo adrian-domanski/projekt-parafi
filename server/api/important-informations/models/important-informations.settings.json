@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "important_informations",
+  "info": {
+    "name": "Ważne informacje"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "mass_schedules",
+  "info": {
+    "name": "Rozkład mszy"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

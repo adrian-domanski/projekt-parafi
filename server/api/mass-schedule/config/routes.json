@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mass-schedule",
+      "handler": "mass-schedule.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mass-schedule",
+      "handler": "mass-schedule.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mass-schedule",
+      "handler": "mass-schedule.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

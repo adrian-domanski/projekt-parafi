@@ -1,0 +1,16 @@
+// Font
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+// Config
+$primary: #00a6a6;
+$lightBlue: #bbdef0;
+$yellow: #efca08;
+$lightOrange: #f49f0a;
+$darkOrange: #f08700;
+
+$family-primary: BlinkMacSystemFont, -apple-system, "Montserrat", "Roboto",
+  "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  "Helvetica", "Arial", sans-serif;
+
+// Bulma
+@import "../../node_modules/bulma/bulma.sass";

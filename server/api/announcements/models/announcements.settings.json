@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "announcements",
+  "info": {
+    "name": "Ogłoszenia parafialne"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

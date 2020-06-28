@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "downloads",
+  "info": {
+    "name": "Do pobrania"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "files": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

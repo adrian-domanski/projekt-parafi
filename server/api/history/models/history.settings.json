@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "histories",
+  "info": {
+    "name": "Historia parafii"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
